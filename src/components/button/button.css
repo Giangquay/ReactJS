@@ -1,0 +1,27 @@
+.btn {
+    width: 330px;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.icon{
+    margin-right: 23px;
+}
+
+.bg-black{
+    background-color: #000;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+.icon--white {
+    color: #fff;
+}
+
+.content{
+    padding-top: 4px;
+}
