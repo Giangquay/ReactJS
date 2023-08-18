@@ -2,6 +2,7 @@
 import './App.css';
 import Layout  from './components/layout'
 import Button from './components/button';
+import CardList from './components/cardlist'
 function App() {
   return (
     <div className="App" >
@@ -12,16 +13,8 @@ function App() {
       headerTitle="Xin chao day la header" 
       footerTitle="Xin chao day la footer"
       >
-        <main style={{
-          width: "100%",
-          height: "500px",
-          backgroundColor: "violet",
-        }}>
-          <Button
-            icon={<i class="fa-brands fa-apple fa-xl" />}
-            name="Continue with Apple"
-            classes="bg-black"
-          />
+        <main className='container'>
+        <CardList title="Nhân viên xuất sắc" />
         </main>
       </Layout>
     </div>
